@@ -1,0 +1,20 @@
+/*
+    udongein.css
+    gggentooo, 250416
+
+    styles used in all pages
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Colors */
+html {
+    --main-background: #fff;
+    --main-text: #000;
+}
+
+
