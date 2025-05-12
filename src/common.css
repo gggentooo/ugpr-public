@@ -11,10 +11,78 @@
     padding: 0;
 }
 
+body {
+    font-family: "42dot Sans";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Colors */
 html {
     --main-background: #fff;
     --main-text: #000;
+    --main-red: rgb(236, 52, 6);
+    --main-orange: rgb(218, 114, 29);
+    --main-yellow: rgb(245, 199, 13);
+    --main-green: rgb(23, 163, 32);
+    --main-blue: rgb(45, 79, 189);
+    --main-purple: rgb(110, 75, 180);
 }
 
+/* Logo */
+p.logo {
+    font-family: "Roboto Condensed";
+    font-size: 3em;
+    color: var(--main-text);
+    display: flex;
+    gap: 0.2em;
+}
+p.logo>span.united {
+    font-weight: 300;
+    display: flex;
+}
+p.logo>span.united>:nth-child(1) {
+    color: var(--main-red);
+}
+p.logo>span.united>:nth-child(2) {
+    color: var(--main-orange);
+}
+p.logo>span.united>:nth-child(3) {
+    color: var(--main-yellow);
+}
+p.logo>span.united>:nth-child(4) {
+    color: var(--main-green);
+}
+p.logo>span.united>:nth-child(5) {
+    color: var(--main-blue);
+}
+p.logo>span.united>:nth-child(6) {
+    color: var(--main-purple);
+}
+p.logo>span.goalposts {
+    font-weight: 100;
+}
+p.logo>span.run {
+    font-family: "Roboto";
+    font-weight: 900;
+    color: var(--main-background);
+    background: var(--main-red);
+}
+
+.container-temp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    padding: 4em 0;
+}
+p.comingsoon {
+    font-family: "Roboto Condensed";
+    font-weight: 500;
+    font-size: 2.5em;
+}
 
